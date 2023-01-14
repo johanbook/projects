@@ -6,15 +6,15 @@ const darkCodeTheme = require("prism-react-renderer/themes/dracula");
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: "Workout",
-  tagline: "My workout docs",
+  title: "Projects",
+  tagline: "My projects",
   url: "https://johanbook.com",
   baseUrl: "/projects/",
   onBrokenLinks: "throw",
   onBrokenMarkdownLinks: "warn",
   favicon: "https://johanbook.com/favicon.ico",
-  organizationName: "cooking",
-  projectName: "cooking",
+  organizationName: "johanbook",
+  projectName: "projects",
 
   presets: [
     [
@@ -64,8 +64,14 @@ const config = {
             to: "https://johanbook.com/cooking",
           },
           {
-            to: "/",
+            target: "_self",
+            to: "https://johanbook.com/workout",
             label: "Workout",
+            position: "left",
+          },
+          {
+            to: "/",
+            label: "Projects",
             position: "left",
           },
         ],
