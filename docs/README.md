@@ -32,10 +32,10 @@ These are services I have both developed and self-host:
 
 These are static web-pages I have created:
 
-- [Calculator](https://johanbook.com/portal#calc). A symbolic calculator built
-  using [Svelte](https://svelte.dev/)
-- [Currency dashboard](https://johanbook.com/portal#currency). A dashboard to
-  show the state of the Swedish Krona. Built in [React](https://reactjs.org/).
-- [Language imitator](https://johanbook.com/portal#lang). A PoC for imitating
-  the structure of a language and be able to generate similar looking text.
-  Build using vanilla Javascript.
+| Link                                                                                | Framework                     | Description                                                                                  |
+| ----------------------------------------------------------------------------------- | ----------------------------- | -------------------------------------------------------------------------------------------- |
+| [511-react-data-visualization](https://johanbook.com/511-react-data-visualization/) | [React](https://reactjs.org/) | An app for monitoring stops in San Francisco                                                 |
+| [Calculator](https://johanbook.com/portal#calc)                                     | [Svelte](https://svelte.dev/) | A symbolic calculator                                                                        |
+| [Currency dashboard](https://johanbook.com/portal#currency)                         | [React](https://reactjs.org/) | A dashboard to show the state of the Swedish Krona                                           |
+| [Language imitator](https://johanbook.com/portal#lang)                              | Vanilla Javascript            | A PoC for imitating the structure of a language and be able to generate similar looking text |
+| [SCB Opendata Explorer](https://johanbook.com/scb-opendata-explorer/)               | [React](https://reactjs.org/) | An app for exploring and visualizing data from Swedish statistics bureau                                                                                              |
